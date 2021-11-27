@@ -1,0 +1,4 @@
+# Ignore these file types
+Textures/Models/*
+Textures/Particles/*
+Textures/Voxels/*
