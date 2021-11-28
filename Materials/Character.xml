@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<MaterialsLib Name="Default Materials">
+	<Material Name="Arms">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Hand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Hand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Hand_add.dds</Parameter>
+	</Material>
+	<Material Name="Astronaut_head">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_head_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_head_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_head_add.dds</Parameter>
+	</Material>
+	<Material Name="Astronaut_head_female">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Astronaut_head_female_EyeBrows">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Characters\Astronaut\Astronaut_head_female_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Astronaut_skull">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Debris\skull_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Debris\skull_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Debris\skull_add.dds</Parameter>
+	</Material>
+	<Material Name="Backpack">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Bag">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Boots">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Cloth">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Gear">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Head">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="Headlight">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_add.dds</Parameter>
+	</Material>
+	<Material Name="LeftGlove">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Hand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Hand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Hand_add.dds</Parameter>
+	</Material>
+	<Material Name="RightArm">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\RightHand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\RightHand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\RightHand_add.dds</Parameter>
+	</Material>
+	<Material Name="RightGlove">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\RightHand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\RightHand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\RightHand_add.dds</Parameter>
+	</Material>
+	<Material Name="Spacesuit_hood">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Astronaut_hood_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Astronaut\Astronaut_hood_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Astronaut\Astronaut_hood_add.dds</Parameter>
+	</Material>
+</MaterialsLib>

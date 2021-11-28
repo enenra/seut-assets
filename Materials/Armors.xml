@@ -1,0 +1,105 @@
+<MaterialsLib Name="Default Materials">
+
+  <!-- Large -->
+
+  <Material Name="SquarePlate">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_square_plate_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_square_plate_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_square_plate_add.dds</Parameter>
+  </Material>
+  <Material Name="SlopePlateSlab">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\LargeLightSlopePlateSlab_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\LargeLightSlopePlateSlab_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\LargeLightSlopePlateSlab_add.dds</Parameter>
+  </Material>
+  <Material Name="corner_and_face_triangle">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_corner_and_face_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_corner_and_face_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_corner_and_face_triangle_add.dds</Parameter>
+  </Material>
+  <Material Name="corner_and_face_triangle_2x1_inv">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_light_2x1_triangles_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_light_2x1_triangles_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_light_2x1_triangles_add.dds</Parameter>
+  </Material>
+  <Material Name="HeavySquarePlate">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_heavy_square_plate_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_heavy_square_plate_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_heavy_square_plate_add.dds</Parameter>
+  </Material>
+  <Material Name="HeavySlopePlateSlab">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\LargeHeavySlopePlateSlab_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\LargeHeavySlopePlateSlab_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\LargeHeavySlopePlateSlab_add.dds</Parameter>
+  </Material>
+  <Material Name="Heavy_corner_and_face_triangle">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_heavy_corner_and_face_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_heavy_corner_and_face_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_heavy_corner_and_face_triangle_add.dds</Parameter>
+  </Material>
+  <Material Name="heavy_corner_and_face_triangle_2x1_inv">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\large_heavy_2x1_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\large_heavy_2x1_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\large_heavy_2x1_triangle_add.dds</Parameter>
+  </Material>
+
+  <!-- Small -->
+
+  <Material Name="small_SquarePlate">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_square_plate_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_square_plate_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_square_plate_add.dds</Parameter>
+  </Material>
+  <Material Name="small_LightSlopePlateSlab">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\SmallLightSlopePlateSlab_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\SmallLightSlopePlateSlab_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\SmallLightSlopePlateSlab_add.dds</Parameter>
+  </Material>
+  <Material Name="small_corner_and_face_triangle">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_corner_and_face_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_corner_and_face_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_corner_and_face_triangle_add.dds</Parameter>
+  </Material>
+  <Material Name="small_corner_and_face_triangle_2x1_inv">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_light_2x1_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_light_2x1_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_light_2x1_triangle_add.dds</Parameter>
+  </Material>
+  <Material Name="small_HeavySquarePlate">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_heavy_square_plate_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_heavy_square_plate_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_heavy_square_plate_add.dds</Parameter>
+  </Material>
+  <Material Name="small_HeavySlopePlateSlab">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\SmallHeavySlopePlateSlab_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\SmallHeavySlopePlateSlab_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\SmallHeavySlopePlateSlab_add.dds</Parameter>
+  </Material>
+  <Material Name="small_heavy_corner_and_face_triangle">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_heavy_corner_and_face_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_heavy_corner_and_face_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_heavy_corner_and_face_triangle_add.dds</Parameter>
+  </Material>
+  <Material Name="small_heavy_corner_and_face_triangle_2x1_inv">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\small_heavy_2x1_triangle_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\small_heavyt_2x1_triangle_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\small_heavy_2x1_triangle_add.dds</Parameter>
+  </Material>
+
+</MaterialsLib>

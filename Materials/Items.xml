@@ -1,0 +1,21 @@
+<MaterialsLib Name="Default Materials">
+
+  <!-- Ingots -->
+  
+  <Material Name="IngotsAtlas">
+    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ingots_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ingots_ng.dds</Parameter>
+    <Parameter Name="AlphamaskTexture">Textures\Models\Physical_item\ingots_alphamask.dds</Parameter>
+  </Material>
+  
+  <!-- Ammo -->
+	
+  <Material Name="Small_Rocket">
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ammo_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ammo_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ammo_add.dds</Parameter>
+  </Material>  
+
+</MaterialsLib>
