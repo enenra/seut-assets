@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MaterialsLib Name="Default Materials">
+<MaterialsLib Name="LODs">
 	<Material Name="AtmosphericThrusterLargePropeller_LOD2">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\AtmosphericThrusterLargePropeller_LOD2_cm.dds</Parameter>

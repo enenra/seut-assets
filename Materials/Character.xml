@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<MaterialsLib Name="Default Materials">
+<MaterialsLib Name="Character">
 	<Material Name="Arms">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Astronaut\Hand_cm.dds</Parameter>
