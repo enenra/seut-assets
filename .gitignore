@@ -17,3 +17,6 @@ Textures/Sprites/*
 Textures/SunGlare/*
 
 */Tools/
+
+MatLib_*
+*.blend1
