@@ -1,0 +1,16 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+3c668376-11ad-4e3e-8224-37ba14298dea:Armor:Armor
+68076bdb-c980-4bfe-8d23-e156c9ca5572:Character:Character
+7c1fee08-69f4-4b25-a3f4-0315c3797b8b:Custom:Custom
+b4b8338c-13c4-44da-bac7-32f62e5ea312:Custom/enenra:Custom-enenra
+cfa8692d-ba29-4c65-ae54-ef75e59f24b2:Foliage:Foliage
+b11794bc-e442-4fc3-95f7-267d94c6ea66:Items:Items
+daf89102-165a-4414-8b86-59c0d0fa0fa4:LODs:LODs
+8383eb3e-c55f-4995-83de-b0ea08da30a6:Materials:Materials
