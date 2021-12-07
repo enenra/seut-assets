@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<MaterialsLib Name="Default Materials">
+	<Material Name="EmissiveRecolorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\EmissiveRecolorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\EmissiveRecolorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\EmissiveRecolorable_add.dds</Parameter>
+	</Material>
+	<Material Name="EmissiveSpectrumAtlas">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\EmissiveSpectrumAtlas_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\EmissiveSpectrumAtlas_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\EmissiveSpectrumAtlas_add.dds</Parameter>
+	</Material>
+</MaterialsLib>
