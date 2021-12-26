@@ -106,6 +106,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\BlueFrostedMetal_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\BlueFrostedMetal_ng.dds</Parameter>
 	</Material>
+	<Material Name="BraidedSteel">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\BraidedSteel_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\BraidedSteel_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\BraidedSteel_add.dds</Parameter>
+	</Material>
 	<Material Name="ButtonsAtlas_Colorable">
 		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ButtonsAtlas_Colorable_cm.dds</Parameter>
@@ -417,6 +423,11 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Grating_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\GratingMetallic_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Grating_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="HydrogenThrusterInjector">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrogenThrusterInjector_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrogenThrusterInjector_ng.dds</Parameter>
 	</Material>
 	<Material Name="HydrogenThrusterNozzle">
 		<Parameter Name="Technique">MESH</Parameter>
