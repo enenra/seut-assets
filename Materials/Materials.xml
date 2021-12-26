@@ -162,33 +162,21 @@
 	</Material>
 	<Material Name="CockpitFighterGlassInside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitFighterGlassInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitFighterGlassOutside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitFighterGlassInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitGlassInside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitFighterGlassInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitGlassOutside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitFighterGlassInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitIndustrialGlassInside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitIndustrialGlassOutside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitIndustrialGlassOutside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\CockpitIndustrialGlassOutside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="CockpitLarge">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -388,27 +376,18 @@
 	</Material>
 	<Material Name="FrostedGlass">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\FrostedGlass.dds</Parameter>
 	</Material>
 	<Material Name="FrostedGlassLarger">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\FrostedGlassLarger.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="GenericGlass">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\SquareWindowDirtInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="GlassInside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\SquareWindowDirtInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="GlassOutside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\SquareWindowDirtInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 	<Material Name="Grating">
 		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
@@ -423,6 +402,11 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Grating_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\GratingMetallic_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Grating_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="HydrogenThrusterConePlates">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrogenThrusterConePlates_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrogenThrusterConePlates_ng.dds</Parameter>
 	</Material>
 	<Material Name="HydrogenThrusterInjector">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -694,6 +678,21 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ThrusterCones_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\ThrusterCones_ng.dds</Parameter>
 	</Material>
+	<Material Name="TransparentScreenArea">
+		<Parameter Name="Technique">HOLO</Parameter>
+	</Material>
+	<Material Name="TransparentScreenArea180">
+		<Parameter Name="Technique">HOLO</Parameter>
+	</Material>
+	<Material Name="TransparentScreenArea270">
+		<Parameter Name="Technique">HOLO</Parameter>
+	</Material>
+	<Material Name="TransparentScreenArea90">
+		<Parameter Name="Technique">HOLO</Parameter>
+	</Material>
+	<Material Name="TransparentScreenArea_Outside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
 	<Material Name="VendingScreen_01">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\CockpitScreen_cm.dds</Parameter>
@@ -702,7 +701,5 @@
 	</Material>
 	<Material Name="WindowInside">
 		<Parameter Name="Technique">GLASS</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Particles\SquareWindowDirtInside_ca.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 	</Material>
 </MaterialsLib>
