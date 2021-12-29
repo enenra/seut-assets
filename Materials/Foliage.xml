@@ -1,197 +1,263 @@
+<?xml version="1.0" ?>
 <MaterialsLib Name="Foliage">
-
-  <!-- Blocks -->
-
-  <Material Name="HydrophonicsLeaf">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrophonicsLeaf_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrophonicsLeaf_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Cubes\HydrophonicsLeaf_alphamask.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\HydrophonicsLeaf_add.dds</Parameter>
-  </Material>
-
-  <!-- Earthlike -->
-  
-  <Material Name="OakBranches">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\Branches_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\Branches_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\Branches_alphamask.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\Branches_add.dds</Parameter>
-    <Parameter Name="WindScale">0.04</Parameter>
-    <Parameter Name="WindFrequency">2</Parameter>
-  </Material>
-  <Material Name="OakBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\Bark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\Bark_ng.dds</Parameter>
-  </Material>
-  <Material Name="AcaciaBranches">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\BranchesDesert_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\BranchesDesert_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\BranchesDesert_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.5</Parameter>
-  </Material>
-  <Material Name="AcaciaBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\BarkAcacia_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\BarkAcacia_ng.dds</Parameter>
-  </Material>
-  <Material Name="AcaciaTop">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="PineBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBark_ng.dds</Parameter>
-  </Material>
-  <Material Name="PineBranches">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBranches_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBranches_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineBranches_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.5</Parameter>
-  </Material>
-  <Material Name="PineBranchesSnow">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBranchesSnow_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBranchesSnow_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineBranchesSnow_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.02</Parameter>
-    <Parameter Name="WindFrequency">0.5</Parameter>
-  </Material>
-  <Material Name="SpruceBranches">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceBranches_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceBranches_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceBranches_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.045</Parameter>
-    <Parameter Name="WindFrequency">2</Parameter>
-  </Material>
-  <Material Name="SpruceBranchesSnow">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.5</Parameter>
-  </Material>
-  <Material Name="SpruceBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBark_ng.dds</Parameter>
-  </Material>
-  <Material Name="LeafConifersLOD3">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="PineTreeSnowLOD3">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="SpruceTreeSnowLOD3">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="SpruceTreeSnowMediumLOD3">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="TreeEnd">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\TreeEnd_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\TreeEnd_ng.dds</Parameter>
-  </Material>
-  <Material Name="Bushes_02">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\\Environment\Bushes\Bushes_02_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\\Environment\Bushes\Bushes_02_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\\Environment\Bushes\Bushes_02_alphamask.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\Bushes_02_add.dds</Parameter>
-  </Material>
-
-  <!-- Alien -->
-
-  <Material Name="AlienBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienCorkBark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienCorkBark_ng.dds</Parameter>
-  </Material>
-  <Material Name="AlienLeafs">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="AlienPineBushLeaf">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineBushMedium_Leafs_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="AlienPineBushSmall">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineBushSnow_Leafs_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="AlienDesertBushDead">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertBushDeadLeaf_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="AlienDesertBush">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertBushLeaf_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_alphamask.dds</Parameter>
-  </Material>
-  <Material Name="AlienPineTreeBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_ng.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_add.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.25</Parameter>
-  </Material>
-  <Material Name="AlienPineTreeSnowBark">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_ng.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_add.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.25</Parameter>
-  </Material>
-  <Material Name="AlienPineTreeLeafs">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.25</Parameter>
-  </Material>
-  <Material Name="AlienPineTreeSnowLeafs">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_alphamask.dds</Parameter>
-    <Parameter Name="WindScale">0.033</Parameter>
-    <Parameter Name="WindFrequency">1.25</Parameter>
-  </Material>
-
+	<Material Name="AcaciaBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\BarkAcacia_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\BarkAcacia_ng.dds</Parameter>
+	</Material>
+	<Material Name="AcaciaBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.5</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\BranchesDesert_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\BranchesDesert_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\BranchesDesert_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\BranchesDesert_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AcaciaTop">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\DesertTreeLargeLOD3_Top_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienCorkBark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienCorkBark_ng.dds</Parameter>
+	</Material>
+	<Material Name="AlienDesertBush">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertBushLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienDesertBushDead">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertBushDeadLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienDesertBushDeadBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\AlienDesertBushDeadBlurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\AlienDesertBushDeadBlurry_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\AlienDesertBushDeadBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienDesertBushMediumBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienLeafBushBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\AlienLeafBushBlurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\AlienLeafBushBlurry_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\AlienLeafBushBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienLeafs">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienLeafTreeBranches_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineBushLeaf">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineBushMedium_Leafs_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineBushSmall">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineBushSnow_Leafs_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienPineTree_Bark_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeLeafs">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeLeafsBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_Blurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTree_Leafs_Blurry_ng.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeSnowBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Bark_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeSnowLeafs">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienPineTreeSnowLeafsBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_Blurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_Blurry_ng.dds</Parameter>
+	</Material>
+	<Material Name="Bushes_02">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\Bushes_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\Bushes_02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\Bushes_02_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Bushes\Bushes_02_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="DesertDeadBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertLeaf_cm.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\DesertLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="DesertLeafsBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="HydrophonicsLeaf">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrophonicsLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrophonicsLeaf_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\HydrophonicsLeaf_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\HydrophonicsLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="LeafBushMediumBlurry">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\LeafBushMediumBlurry_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\LeafBushMediumBlurry_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\LeafBushMediumBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="LeafConifersLOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="OakBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\Bark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\Bark_ng.dds</Parameter>
+	</Material>
+	<Material Name="OakBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.04</Parameter>
+		<Parameter Name="WindFrequency">2.0</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\Branches_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\Branches_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\Branches_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\Branches_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PineBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBark_ng.dds</Parameter>
+	</Material>
+	<Material Name="PineBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.5</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBranches_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBranches_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\PineBranches_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineBranches_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PineBranches_old">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineTreesBranches_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineTreesBranches_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineTreesBranches_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PineBranchesSnow">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.02</Parameter>
+		<Parameter Name="WindFrequency">0.5</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBranchesSnow_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBranchesSnow_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\PineBranchesSnow_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineBranchesSnow_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PineLeafBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineLeaf_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\PineLeaf_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PineTreeSnowLOD3">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="SpruceBark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineBark_ng.dds</Parameter>
+	</Material>
+	<Material Name="SpruceBranches">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.045</Parameter>
+		<Parameter Name="WindFrequency">2.0</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceBranches_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceBranches_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceBranches_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="SpruceBranchesSnow">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.5</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceBranchesSnow_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="SpruceTreeSnowLOD3">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceTreeSnowLOD3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="SpruceTreeSnowMediumLOD3">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="TreeEnd">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\TreeEnd_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\TreeEnd_ng.dds</Parameter>
+	</Material>
 </MaterialsLib>
