@@ -364,6 +364,12 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\EmissiveAtlas_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\EmissiveAtlas_add.dds</Parameter>
 	</Material>
+	<Material Name="EmissiveColorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\EmissiveAtlas_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\EmissiveAtlas_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\EmissiveColorable_add.dds</Parameter>
+	</Material>
 	<Material Name="EmissiveSpotlight">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Aluminium_cm.dds</Parameter>
