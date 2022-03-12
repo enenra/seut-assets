@@ -15,3 +15,5 @@ b11794bc-e442-4fc3-95f7-267d94c6ea66:Items:Items
 daf89102-165a-4414-8b86-59c0d0fa0fa4:LODs:LODs
 8383eb3e-c55f-4995-83de-b0ea08da30a6:Materials:Materials
 8087bf5c-2282-4770-a68a-2aed782db433:Models:Models
+e8a9df31-cfb1-40d0-a391-43b13a3684aa:Prefabs:Prefabs
+55fcaa5c-3787-4e70-b783-56d069a88283:Prefabs/HQ:Prefabs-HQ
