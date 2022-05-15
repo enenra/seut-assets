@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<MaterialsLib Name="PlayerItems">
+	<Material Name="Pistol_Elite_Warfare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\Pistol_Elite_Warfare_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\Pistol_Elite_Warfare_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\Pistol_Elite_Warfare_add.dds</Parameter>
+	</Material>
+	<Material Name="Pistol_FullAuto_Warfare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\Pistol_FullAuto_Warfare_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\Pistol_FullAuto_Warfare_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\Pistol_FullAuto_Warfare_add.dds</Parameter>
+	</Material>
+	<Material Name="Pistol_Warfare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\Pistol_Warfare_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\Pistol_Warfare_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\Pistol_Warfare_add.dds</Parameter>
+	</Material>
+	<Material Name="Rifle_Magazines_Warfare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\Rifle_Magazines_Warfare_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\Rifle_Magazines_Warfare_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\Rifle_Magazines_Warfare_add.dds</Parameter>
+	</Material>
+	<Material Name="RocketLauncher_Precision_Body">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\RocketLauncher_Precise_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\RocketLauncher_Precise_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\RocketLauncher_Precise_add.dds</Parameter>
+	</Material>
+	<Material Name="RocketLauncher_Precision_Glass">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="RocketLauncher_Regular_Body">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\RocketLauncher_Regular_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\RocketLauncher_Regular_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\RocketLauncher_Regular_add.dds</Parameter>
+	</Material>
+	<Material Name="RocketLauncher_Regular_Glass">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="ToolTierDecals">
+		<Parameter Name="Technique">DECAL</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Weapons\PlayerHandItemTiers_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Weapons\PlayerHandItemTiers_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Weapons\PlayerHandItemTiers_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Weapons\PlayerHandItemTiers_alphamask.dds</Parameter>
+	</Material>
+</MaterialsLib>
