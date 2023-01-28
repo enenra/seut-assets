@@ -1,0 +1,877 @@
+<?xml version="1.0" ?>
+<MaterialsLib Name="Voxels">
+	<Material Name="AlienGreenGrass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\AlienGreenGrass_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\AlienGreenGrass_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienGreenGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienGreenGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIce">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIce_03">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIce_03Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIce_03Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIceFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienIceFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienIce_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienIce_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienOrangeGrassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienOrangeGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienOrangeGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockGrassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyMountain">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyMountain_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyMountain_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\AlienRockyMountain_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyMountainFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyMountain_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyMountain_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyMountainFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyMountain_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyMountain_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyTerrain">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyTerrain_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyTerrain_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\AlienRockyTerrain_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyTerrainFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyTerrain_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyTerrain_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienRockyTerrainFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienRockyTerrain_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienRockyTerrain_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSand">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSandFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSand_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSand_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSandFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSand_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSand_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSnow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSnow_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSnow_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSnowFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSnow_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSnow_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSnowFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSnow_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSnow_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSoil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSoil_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSoil_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSoilFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSoil_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSoil_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienSoilFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienSoil_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienSoil_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\AlienYellowGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\AlienYellowGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Cobalt_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Cobalt_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Cobalt_01_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="CrackedSoil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\CrackedSoil_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\CrackedSoil_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\CrackedSoil_add.dds</Parameter>
+	</Material>
+	<Material Name="CrackedSoilFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="CrackedSoilFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\CrackedSoil_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="DebugMaterial">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\DebugTexture_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\DebugTexture_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\DebugTexture_add.dds</Parameter>
+	</Material>
+	<Material Name="DesertRocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\RocksDesert_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\RocksDesert_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\RocksDesert_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="DesertRocksFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="DesertRocksFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\RocksDesert_ForAxisXZ_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v01_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v01_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v02_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks2Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v02_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks2Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v02_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v03_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks3Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v03_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks3Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v03_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocksFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v01_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v01_add.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocksFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\DustyRocks_v01_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\DustyRocks_v01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\DustyRocks_v01_add.dds</Parameter>
+	</Material>
+	<Material Name="Gold_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Gold_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Gold_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Green_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Green_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthGreenGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthGreenGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthGreenGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthGreenGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Grass_02_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_old">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_old bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_old bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_old bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_oldFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Grass_oldFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Grass_old_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Grass_old_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="GrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthGreenGrass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthGreenGrass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="GrassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthGreenGrass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthGreenGrass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Ice_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_01_ForAxisXZ_far_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_01_ForAxisXZ_far_ng.dds</Parameter>
+	</Material>
+	<Material Name="Ice_01Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_01_ForAxisXZ_far_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_01_ForAxisXZ_far_ng.dds</Parameter>
+	</Material>
+	<Material Name="Ice_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_02_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice_02Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_02_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_02_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice_02Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_02_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_02_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Ice_03">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Ice_03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Ice_03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Ice_03_add.dds</Parameter>
+	</Material>
+	<Material Name="IceEuropa2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="IceEuropa2Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa2_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa2_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="IceEuropa2Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa2_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa2_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="IceFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="IceFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\IceEuropa_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\IceEuropa_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Iron_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Iron_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Iron_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Iron_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Iron_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Iron_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Iron_02_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Iron_02_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Iron_02Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Iron_02_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Iron_02_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Iron_02_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Magnesium_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Magnesium_01_ForAxisY_add.dds</Parameter>
+	</Material>
+	<Material Name="MarsRocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\MarsRocks_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="MarsSoil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\MarsSoil_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\MarsSoil_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="MoonRocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="MoonSoil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Nickel_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Nickel_01Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Nickel_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Nickel_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Nickel_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="PertamSand">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\PertamSand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\PertamSand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\PertamSand_add.dds</Parameter>
+	</Material>
+	<Material Name="PertamSandFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\PertamSand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\PertamSand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\PertamSand_add.dds</Parameter>
+	</Material>
+	<Material Name="PertamSandFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Pertam\PertamSand_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Pertam\PertamSand_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Pertam\PertamSand_add.dds</Parameter>
+	</Material>
+	<Material Name="Platinum_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Platinum_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Platinum_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Platinum_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Platinum_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Rocks_grass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Rocks_Grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Rocks_Grass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Rocks_Grass_add.dds</Parameter>
+	</Material>
+	<Material Name="Rocks_grassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Rocks_Grass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Rocks_Grass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Rocks_Grass_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="Sand_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Sand_02_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Sand_02Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="Sand_02Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Sand_02_ForAxisXZ_Far2_add.dds</Parameter>
+	</Material>
+	<Material Name="Silicon_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Silicon_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Silicon_01_ForAxisY_add.dds</Parameter>
+	</Material>
+	<Material Name="Silicon_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Silicon_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Silicon_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Silicon_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Silver_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Silver_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Silver_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Silver_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Silver_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMoonRocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\MoonRocks_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Snow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Snow_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="SnowFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Snow_01_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Snow_01_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="SnowFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Snow_01_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Snow_01_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Soil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Soil_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Soil_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="SoilFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Soil_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Soil_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="SoilFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Soil_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Soil_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthStone_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthStone_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_01_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="Stone_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_02_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_02_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="Stone_03">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_03_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_03_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="Stone_03Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_03_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_03_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_03Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_03_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_03_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_04">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_04_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_04_ForAxisXZ_ng.dds</Parameter>
+	</Material>
+	<Material Name="Stone_04Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_04_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_04_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_04Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_04_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_04_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_05">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_05_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_05_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_05Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_05_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_05_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Stone_05Far2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Stone_05_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Stone_05_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="StoneFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthStone_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthStone_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="StoneFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\EarthStone_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\EarthStone_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="TritonBlend">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Triton\TritonBlend_1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Triton\TritonBlend_1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="TritonIce">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Triton\TritonIce_1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Triton\TritonIce_1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="TritonStone">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Triton\TritonStone_1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Triton\TritonStone_1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Uraninite_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Uraninite_01Far1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_distance_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_distance_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Uraninite_01_ForAxisXZ_distance_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grass bare">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grass bareFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grass bareFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+	<Material Name="Woods_grassFar2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Voxels\Woods_grass_Far2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Voxels\Woods_grass_Far2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Voxels\Dummy_add.dds</Parameter>
+	</Material>
+</MaterialsLib>
