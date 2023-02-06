@@ -158,7 +158,7 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\LeafBushMediumBlurry_add.dds</Parameter>
 	</Material>
 	<Material Name="LeafConifersLOD3">
-		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_ng.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_alphamask.dds</Parameter>

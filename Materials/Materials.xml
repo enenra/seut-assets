@@ -1,42 +1,42 @@
 <?xml version="1.0" ?>
 <MaterialsLib Name="Materials">
 	<Material Name="Atlas1">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas1_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas1_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas1_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas1_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Atlas1Colorable">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas1Colorable_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas1Colorable_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas1Colorable_add.dds</Parameter>
-		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas1Colorable_alphamask.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas1_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Atlas2">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas2_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas2_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas2_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas2_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Atlas3_Chrome">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas3_Chrome_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas3_Chrome_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas3_Chrome_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas3_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Atlas3_Colorable">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas3_Colorable_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas3_Colorable_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas3_Colorable_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Atlas3_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Atlas3_Darker">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas3_Darker_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Atlas3_Darker_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Atlas3_Darker_add.dds</Parameter>
@@ -113,14 +113,14 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\BraidedSteel_add.dds</Parameter>
 	</Material>
 	<Material Name="ButtonsAtlas_Colorable">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ButtonsAtlas_Colorable_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\ButtonsAtlas_Colorable_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\ButtonsAtlas_Colorable_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\ButtonsAtlas_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="ButtonsAtlas_Darker">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ButtonsAtlas_Darker_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\ButtonsAtlas_Darker_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\ButtonsAtlas_Darker_add.dds</Parameter>
@@ -292,7 +292,7 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Cooker_add.dds</Parameter>
 	</Material>
 	<Material Name="Decals">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_01_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
@@ -526,14 +526,14 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalScratchedColorable_ng.dds</Parameter>
 	</Material>
 	<Material Name="PanelingColorable">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_01_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_01_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="PanelingDarker">
-		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_02_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
@@ -660,14 +660,14 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\terminal_panel_add.dds</Parameter>
 	</Material>
 	<Material Name="TextAtlas">
-		<Parameter Name="Technique">DECAL</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\TextAtlas_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\TextAtlas_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\TextAtlas_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\TextAtlas_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="TextAtlasDark">
-		<Parameter Name="Technique">DECAL</Parameter>
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\TextAtlasDark_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\TextAtlas_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\TextAtlas_add.dds</Parameter>
