@@ -786,4 +786,16 @@
 	<Material Name="WindowInside">
 		<Parameter Name="Technique">GLASS</Parameter>
 	</Material>
+	<Material Name="WindowRectangularInside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="WindowRectangularOutside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="WindowTriangularInside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
+	<Material Name="WindowTriangularOutside">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
 </MaterialsLib>
