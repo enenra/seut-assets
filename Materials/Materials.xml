@@ -295,7 +295,7 @@
 		<Parameter Name="Technique">DECAL_NOPREMULT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_01_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
-		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_01_add.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="Dirt">
