@@ -1,5 +1,17 @@
 <?xml version="1.0" ?>
 <MaterialsLib Name="Materials">
+	<Material Name="ArmsDamaged">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Damaged\HandDamaged_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Damaged\HandDamaged_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Damaged\HandDamaged_add.dds</Parameter>
+	</Material>
+	<Material Name="Astronaut_Damaged">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_add.dds</Parameter>
+	</Material>
 	<Material Name="Atlas1">
 		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Atlas1_cm.dds</Parameter>
@@ -135,6 +147,12 @@
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
+	</Material>
+	<Material Name="ClangCola">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ClangCola_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ClangCola_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ClangCola_add.dds</Parameter>
 	</Material>
 	<Material Name="ClothBag">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -291,6 +309,12 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Cooker_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Cooker_add.dds</Parameter>
 	</Material>
+	<Material Name="CosmicCoffee">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\CosmicCoffee_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\CosmicCoffee_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Physical_item\CosmicCoffee_add.dds</Parameter>
+	</Material>
 	<Material Name="Decals">
 		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_01_cm.dds</Parameter>
@@ -380,6 +404,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\BurnedMetal_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\BurnedMetal_ng.dds</Parameter>
 	</Material>
+	<Material Name="FoodDispenser">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FoodDispenser_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FoodDispenser_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\FoodDispenser_add.dds</Parameter>
+	</Material>
 	<Material Name="FrostedGlass">
 		<Parameter Name="Technique">GLASS</Parameter>
 	</Material>
@@ -409,6 +439,11 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\GratingMetallic_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Grating_alphamask.dds</Parameter>
 	</Material>
+	<Material Name="HydrogenThrusterCone">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrogenThrusterCone_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrogenThrusterCone_ng.dds</Parameter>
+	</Material>
 	<Material Name="HydrogenThrusterConePlates">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\HydrogenThrusterConePlates_cm.dds</Parameter>
@@ -425,6 +460,12 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\HydrogenThrusterNozzle_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\HydrogenThrusterNozzle_add.dds</Parameter>
 	</Material>
+	<Material Name="IngotsAtlas">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ingots_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ingots_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Physical_item\ingots_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="InteriorWall">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\InteriorWall_cm.dds</Parameter>
@@ -435,6 +476,18 @@
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\LCD_Economy_Graph_4_cm.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\LCD_Economy_Graph_4_add.dds</Parameter>
+	</Material>
+	<Material Name="Leather_Dark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Leather_Dark_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Leather_Dark_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Leather_Dark_add.dds</Parameter>
+	</Material>
+	<Material Name="LightPanel_Light">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\LightPanel_Light_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\LightPanel_Light_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\LightPanel_Light_add.dds</Parameter>
 	</Material>
 	<Material Name="Metal_Dull">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -539,10 +592,35 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
 	</Material>
+	<Material Name="PanelingDarkerNoReskin">
+		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Decals_Atlas_A_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="PlasticWhite">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PlasticWhite_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PlasticWhite_ng.dds</Parameter>
+	</Material>
+	<Material Name="Plushie">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Plushie\Plushie_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Plushie\Plushie_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Plushie\Plushie_add.dds</Parameter>
+	</Material>
+	<Material Name="ProgrammingBlock">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ProgramingBlock_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\ProgramingBlock_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\ProgramingBlock_add.dds</Parameter>
+	</Material>
+	<Material Name="RightArmDamaged">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Damaged\RightHandDamaged_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Damaged\RightHandDamaged_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Damaged\RightHandDamaged_add.dds</Parameter>
 	</Material>
 	<Material Name="Rubber">
 		<Parameter Name="Technique">MESH</Parameter>

@@ -1,21 +1,21 @@
+<?xml version="1.0" ?>
 <MaterialsLib Name="Items">
-
-  <!-- Ingots -->
-  
-  <Material Name="IngotsAtlas">
-    <Parameter Name="Technique">ALPHA_MASKED</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ingots_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ingots_ng.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Physical_item\ingots_alphamask.dds</Parameter>
-  </Material>
-  
-  <!-- Ammo -->
-	
-  <Material Name="Small_Rocket">
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ammo_cm.dds</Parameter>
-    <Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ammo_ng.dds</Parameter>
-    <Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ammo_add.dds</Parameter>
-  </Material>  
-
+	<Material Name="ComponentsContractPackage_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="IngotsAtlas">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ingots_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ingots_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Physical_item\ingots_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Small_Rocket">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ammo_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ammo_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ammo_add.dds</Parameter>
+	</Material>
 </MaterialsLib>

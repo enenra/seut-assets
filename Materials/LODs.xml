@@ -258,6 +258,18 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\LargeDrill_LOD2_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\LargeDrill_LOD2_add.dds</Parameter>
 	</Material>
+	<Material Name="LargeFoodDispenser_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="LargeFoodDispenser_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\LargeFoodDispenser_LOD3_add.dds</Parameter>
+	</Material>
 	<Material Name="LargeFreight_I_LOD2">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\LargeFreight_I_LOD2_cm.dds</Parameter>
@@ -1500,6 +1512,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTires">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTires_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTires_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTires_add.dds</Parameter>
 	</Material>
 	<Material Name="SmallTrapdoor_Small_Door1_LOD2">
 		<Parameter Name="Technique">MESH</Parameter>
