@@ -1513,12 +1513,6 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_add.dds</Parameter>
 	</Material>
-	<Material Name="SmallTires">
-		<Parameter Name="Technique">MESH</Parameter>
-		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTires_cm.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTires_ng.dds</Parameter>
-		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTires_add.dds</Parameter>
-	</Material>
 	<Material Name="SmallTrapdoor_Small_Door1_LOD2">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_cm.dds</Parameter>
