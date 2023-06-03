@@ -22,3 +22,7 @@ Tools/*
 MatLib_*
 *.blend1
 conversion.log
+Materials/GFA.blend
+Materials/GFA.xml
+Materials/ME_Flora.blend
+Textures/Custom/GFA/*
