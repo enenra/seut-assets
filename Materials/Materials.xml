@@ -783,6 +783,12 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\CockpitScreen_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\CockpitScreen_add.dds</Parameter>
 	</Material>
+	<Material Name="WarningSigns1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WarningSigns_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WarningSigns_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WarningSigns_add.dds</Parameter>
+	</Material>
 	<Material Name="WindowInside">
 		<Parameter Name="Technique">GLASS</Parameter>
 	</Material>
