@@ -1,5 +1,8 @@
 <?xml version="1.0" ?>
 <MaterialsLib Name="Materials">
+	<Material Name="AquariumGlass">
+		<Parameter Name="Technique">GLASS</Parameter>
+	</Material>
 	<Material Name="ArmsDamaged">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Damaged\HandDamaged_cm.dds</Parameter>
@@ -11,6 +14,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Damaged\Astronaut_Damaged_add.dds</Parameter>
+	</Material>
+	<Material Name="AstronautStatue">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\AstronautStatue_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\AstronautStatue_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\AstronautStatue_add.dds</Parameter>
 	</Material>
 	<Material Name="Atlas1">
 		<Parameter Name="Technique">DECAL_CUTOUT</Parameter>
@@ -404,6 +413,21 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\BurnedMetal_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\BurnedMetal_ng.dds</Parameter>
 	</Material>
+	<Material Name="FabricBlack">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FabricBlack_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FabricBlack_ng.dds</Parameter>
+	</Material>
+	<Material Name="FabricWhite">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FabricWhite_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FabricWhite_ng.dds</Parameter>
+	</Material>
+	<Material Name="Fish">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Fish_cm.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Fish_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="FoodDispenser">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FoodDispenser_cm.dds</Parameter>
@@ -541,6 +565,11 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalDarker_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
 	</Material>
+	<Material Name="PaintedMetal_Red">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetal_Red_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+	</Material>
 	<Material Name="PaintedMetal_VeryDark">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetal_VeryDark_cm.dds</Parameter>
@@ -598,6 +627,11 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Decals_Atlas_A_01_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="PlasticPink">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PlasticPink_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PlasticPink_ng.dds</Parameter>
 	</Material>
 	<Material Name="PlasticWhite">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -706,6 +740,18 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\SolarPanel_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\SolarPanel_ng.dds</Parameter>
 	</Material>
+	<Material Name="SolarPanel_colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\SolarPanel_colorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\SolarPanel_colorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\SolarPanel_colorable_add.dds</Parameter>
+	</Material>
+	<Material Name="StatuePlaque">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\StatuePlaque_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\StatuePlaque_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\StatuePlaque_add.dds</Parameter>
+	</Material>
 	<Material Name="Stereolith">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Props\Monolith_cm.dds</Parameter>
@@ -788,6 +834,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WarningSigns_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WarningSigns_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WarningSigns_add.dds</Parameter>
+	</Material>
+	<Material Name="WarningSignsEaster">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WarningSignsEaster_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WarningSignsEaster_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WarningSignsEaster_add.dds</Parameter>
 	</Material>
 	<Material Name="WindowInside">
 		<Parameter Name="Technique">GLASS</Parameter>
