@@ -19,5 +19,6 @@ daf89102-165a-4414-8b86-59c0d0fa0fa4:LODs:LODs
 254035e4-0013-45ef-a022-def7a68fd0cc:Models/Buttons:Models-Buttons
 e98e6330-f8ac-402a-8f07-65bdf149da4b:Models/Lines:Models-Lines
 840bb89f-8d83-410b-9576-38b3c395a7c3:Models/Text:Models-Text
+7b3c9880-86f9-4b61-89a4-19896281675b:Models/Warning:Models-Warning
 52ec1307-92bc-4363-a7b3-6bd1ebadd7df:PlayerItems:PlayerItems
 f0956b94-ee84-4e77-aedf-8a3f369ec648:Voxels:Voxels
