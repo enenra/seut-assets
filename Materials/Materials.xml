@@ -152,6 +152,13 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\CameraLens_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\CameraLens_ng.dds</Parameter>
 	</Material>
+	<Material Name="CargoNet">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\CargoNet_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\CargoNet_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\CargoNet_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\CargoNet_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="Chrome">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.dds</Parameter>
@@ -649,6 +656,25 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\ProgramingBlock_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\ProgramingBlock_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\ProgramingBlock_add.dds</Parameter>
+	</Material>
+	<Material Name="Prototech">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Prototech_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Prototech_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Prototech_add.dds</Parameter>
+	</Material>
+	<Material Name="Prototech_Atlas">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Prototech_Atlas_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Prototech_Atlas_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Prototech_Atlas_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Prototech_Atlas_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Prototech_Clean">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Prototech_Clean_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Prototech_Clean_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Prototech_Clean_add.dds</Parameter>
 	</Material>
 	<Material Name="RightArmDamaged">
 		<Parameter Name="Technique">MESH</Parameter>
