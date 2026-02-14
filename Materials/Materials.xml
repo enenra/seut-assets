@@ -425,6 +425,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FabricBlack_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FabricBlack_ng.dds</Parameter>
 	</Material>
+	<Material Name="FabricColorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FabricColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FabricBlack_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\FabricColorable_add.dds</Parameter>
+	</Material>
 	<Material Name="FabricWhite">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FabricWhite_cm.dds</Parameter>
@@ -440,6 +446,11 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\FoodDispenser_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\FoodDispenser_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\FoodDispenser_add.dds</Parameter>
+	</Material>
+	<Material Name="FoodPackaging">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\FoodPackaging_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\FoodPackaging_ng.dds</Parameter>
 	</Material>
 	<Material Name="FrostedGlass">
 		<Parameter Name="Technique">GLASS</Parameter>
