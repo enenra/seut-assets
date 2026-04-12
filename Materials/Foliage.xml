@@ -44,11 +44,32 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\AlienDesertBushDeadBlurry_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\AlienDesertBushDeadBlurry_add.dds</Parameter>
 	</Material>
+	<Material Name="AlienDesertBushGreen">
+		<Parameter Name="Technique">FOLIAGE</Parameter>
+		<Parameter Name="WindScale">0.012</Parameter>
+		<Parameter Name="WindFrequency">0.35</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertBushLeaf_2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienDesertTreeLeaf_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="AlienDesertBushMediumBlurry">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\AlienDesertBushMediumBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienDesertTreeTrunk">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienDesertTreeTrunk_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienDesertTreeTrunk_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\AlienDesertTreeTrunk_add.dds</Parameter>
+	</Material>
+	<Material Name="AlienGreenGrass_Tubes">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\AlienGreenGrass_Tubes_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\AlienGreenGrass_Tubes_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\AlienGreenGrass_Tubes_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="AlienLeafBushBlurry">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -120,12 +141,69 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_Blurry_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienPineTreeSnow_Leafs_Blurry_ng.dds</Parameter>
 	</Material>
+	<Material Name="AlienRockGrass_Tubes">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\AlienRockGrass_Tubes_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\AlienRockGrass_Tubes_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\AlienRockGrass_Tubes_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="AlienYellowGrass_Tubes">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\AlienYellowGrass_Tubes_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\AlienYellowGrass_Tubes_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\AlienYellowGrass_Tubes_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Branch_1">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\Branch_1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\Branch_1_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\Branch_1_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Branch_2">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\Branch_2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\Branch_2_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\Branch_2_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Bushes">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\Bushes_01_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\Bushes_01_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Bushes\Bushes_01_alphamask.dds</Parameter>
+	</Material>
 	<Material Name="Bushes_02">
 		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\Bushes_02_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\Bushes_02_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Bushes\Bushes_02_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Bushes\Bushes_02_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="CabbageLeaf">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\CabbageLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\CabbageLeaf_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Farming\CabbageLeaf_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\CabbageLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="CabbageLeafDead">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\CabbageLeafDead_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\CabbageLeafDead_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Farming\CabbageLeafDead_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\CabbageLeafDead_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="CabbageLeafYoung">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\CabbageLeafYoung_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\CabbageLeafYoung_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Farming\CabbageLeafYoung_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\CabbageLeafYoung_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Cactus">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Bushes\Cactus_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Bushes\Cactus_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Bushes\Cactus_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="DesertDeadBranches">
 		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
@@ -141,6 +219,58 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\DesertLeafsBlurry_add.dds</Parameter>
+	</Material>
+	<Material Name="DesertTreeCanopy">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\DesertTreeCanopy_cm.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\DesertTreeCanopy_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="DustyRocks_v03">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\DustyRocks_v03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\DustyRocks_v03_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Terrain\DustyRocks_v03_add.dds</Parameter>
+	</Material>
+	<Material Name="Flax">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\Flax_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\FlaxBundle_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\FlaxBundle_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Grass">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\Grass_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\Grass_ng.dds</Parameter>
+	</Material>
+	<Material Name="Grass_02">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_02_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\Grass_02_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Grass_04">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_04_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_04_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\Grass_04_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Grass_06">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_06_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_06_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\Grass_06_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Grass_07">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_07_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_07_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\Grass_07_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="GrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Grass\Grass_Far1_add.dds</Parameter>
 	</Material>
 	<Material Name="HydrophonicsLeaf">
 		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
@@ -162,6 +292,55 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_ng.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\LeafConifersLOD3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="LeafyBranches_1">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\LeafyBranches_1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\LeafyBranches_1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Trees\LeafyBranches_1_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\LeafyBranches_1_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Leaves">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="WindScale">0.033</Parameter>
+		<Parameter Name="WindFrequency">1.25</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\AlienLeaf_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\AlienLeaf_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\AlienLeaf_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="ME-Grass_03">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\ME-Grass_03_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\ME-Grass_03_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\ME-Grass_03_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="ME-Grass_09">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Me-Grass_09_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\ME-Grass_09_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\ME-Grass_09_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="ME-Grass_10">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\ME-Grass_10_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\ME-Grass_10_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\ME-Grass_10_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="ME-Grass_11">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Grass_11_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Grass_11_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\Grass_11_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Mushroom">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\Mushrooms_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\Mushrooms_ng.dds</Parameter>
+	</Material>
+	<Material Name="Mushroom_withered">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\Mushrooms_withered_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\Mushrooms_withered_ng.dds</Parameter>
 	</Material>
 	<Material Name="OakBark">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -221,6 +400,33 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_ng.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\PineTreeSnowLOD3_alphamask.dds</Parameter>
 	</Material>
+	<Material Name="RockGrassFar1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\Rocks_Grass_Far1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\Rocks_Grass_Far1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Terrain\Rocks_Grass_Far1_add.dds</Parameter>
+	</Material>
+	<Material Name="Rocks">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\Rocks_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\Rocks_ng.dds</Parameter>
+	</Material>
+	<Material Name="RocksDesert_2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\RocksDesert_ForAxisXZ_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\RocksDesert_ForAxisXZ_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Environment\Terrain\RocksDesert_ForAxisXZ_add.dds</Parameter>
+	</Material>
+	<Material Name="Sand_02">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\Sand_02_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\Sand_02_ng.dds</Parameter>
+	</Material>
+	<Material Name="Snail">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\Snail_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\Snail_ng.dds</Parameter>
+	</Material>
 	<Material Name="SpruceBark">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\PineBark_cm.dds</Parameter>
@@ -255,9 +461,56 @@
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_ng.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Trees\SpruceTreeSnowMediumLOD3_alphamask.dds</Parameter>
 	</Material>
+	<Material Name="SteppeYellowGrass_Grass_3">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Grass\SteppeYellowGrass_Grass_3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Grass\SteppeYellowGrass_Grass_3_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Grass\SteppeYellowGrass_Grass_3_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="Stone_01">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Terrain\Stone_01_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Terrain\Stone_01_ng.dds</Parameter>
+	</Material>
 	<Material Name="TreeEnd">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Trees\TreeEnd_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Trees\TreeEnd_ng.dds</Parameter>
+	</Material>
+	<Material Name="WheatDead">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WheatDead_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WheatDead_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WheatDead_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="WheatGrown">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WheatGrown_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WheatGrown_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WheatGrown_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="WheatSeedling">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WheatSeedling_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WheatSeedling_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WheatSeedling_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="WheatYoung">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WheatYoung_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WheatYoung_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WheatYoung_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="WildSalad_fresh">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WildSalad_fresh_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WildSalad_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WildSalad_alphamask.dds</Parameter>
+	</Material>
+	<Material Name="WildSalad_withered">
+		<Parameter Name="Technique">ALPHA_MASKED</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\WildSalad_withered_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\WildSalad_ng.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Environment\Farming\WildSalad_alphamask.dds</Parameter>
 	</Material>
 </MaterialsLib>
