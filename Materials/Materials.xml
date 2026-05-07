@@ -646,6 +646,11 @@
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\Decals_Atlas_A_02_add.dds</Parameter>
 		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Decals_Atlas_A_01_alphamask.dds</Parameter>
 	</Material>
+	<Material Name="PlantedSoil">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Environment\Farming\PlantedSoil_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Environment\Farming\PlantedSoil_ng.dds</Parameter>
+	</Material>
 	<Material Name="PlasticPink">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PlasticPink_cm.dds</Parameter>
@@ -661,6 +666,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Plushie\Plushie_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Plushie\Plushie_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Plushie\Plushie_add.dds</Parameter>
+	</Material>
+	<Material Name="PlushieSE2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\Plushie\PlushieSE2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\Plushie\PlushieSE2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\Plushie\PlushieSE2_add.dds</Parameter>
 	</Material>
 	<Material Name="ProgrammingBlock">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -729,6 +740,12 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\RustyMetalScratched_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\RustyMetalScratched_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\RustyMetalScratched_add.dds</Parameter>
+	</Material>
+	<Material Name="SabiroidPlushie">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Characters\SabiroidPlushie\SabiroidPlushie_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Characters\SabiroidPlushie\SabiroidPlushie_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Characters\SabiroidPlushie\SabiroidPlushie_add.dds</Parameter>
 	</Material>
 	<Material Name="ScreenArea">
 		<Parameter Name="Technique">MESH</Parameter>
@@ -877,6 +894,7 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WarningSignsEaster_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WarningSignsEaster_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WarningSignsEaster_add.dds</Parameter>
+		<Parameter Name="AlphamaskTexture">Textures\Models\Cubes\WarningSignsEaster_alphamask.dds</Parameter>
 	</Material>
 	<Material Name="WindowInside">
 		<Parameter Name="Technique">GLASS</Parameter>
